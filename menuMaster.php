@@ -2548,12 +2548,6 @@ include $baseROOT . "/SuperAdmin/logic/logicMenuMaster.php";
                                                             <label for="OriginalMarksReport" class="permisnCheck">Original Marks Report</label>
                                                         </div>
                                                         <div class="col-md-3">
-                                                            <input type="checkbox" id="OriginalAdditionalMarksReport"
-                                                                   name="menuName[OriginalAdditionalMarksReport]"
-                                                                   value="1" <?= in_array("OriginalAdditionalMarksReport=1", $menuData) ? 'checked' : '' ?>  class="examinationReport"/>
-                                                            <label for="OriginalAdditionalMarksReport" class="permisnCheck">Original Additional Marks Report</label>
-                                                        </div>
-                                                        <div class="col-md-3">
                                                             <input type="checkbox" id="CompiledSheet"
                                                                    name="menuName[CompiledSheet]"
                                                                    value="1" <?= in_array("CompiledSheet=1", $menuData) ? 'checked' : '' ?>  class="examinationReport"/>
@@ -2733,6 +2727,13 @@ include $baseROOT . "/SuperAdmin/logic/logicMenuMaster.php";
                                                                        value="1" <?= in_array("reportCard21=1", $menuData) ? 'checked' : '' ?>
                                                                        class="examination"/>
                                                                 <label for="reportCard21" class="permisnCheck">10.Final-Aaryan Public</label>
+                                                            </div>
+
+                                                            <div class="col-md-3">
+                                                                <input type="checkbox" name="menuName[reportCard60]" id="reportCard60"
+                                                                       value="1" <?= in_array("reportCard60=1", $menuData) ? 'checked' : '' ?>
+                                                                       class="examination"/>
+                                                                <label for="reportCard60" class="permisnCheck">Final - Green Valley</label>
                                                             </div>
 
 
@@ -2997,24 +2998,6 @@ include $baseROOT . "/SuperAdmin/logic/logicMenuMaster.php";
                                                             <label for="Add" class="permisnCheck">PT-3(Term-2)-BALAJI-BLANK</label>
                                                         </div>
                                                         <div class="col-md-3">
-                                                            <input type="checkbox" name="menuName[termoverallBalaJi]"
-                                                                   value="1" <?= in_array("termoverallBalaJi=1", $menuData) ? 'checked' : '' ?>
-                                                                   class="examination"/>
-                                                            <label for="Add" class="permisnCheck">Overall Balaji</label>
-                                                        </div>
-                                                        <div class="col-md-3">
-                                                            <input type="checkbox" name="menuName[termoverallBalaJi2]"
-                                                                   value="1" <?= in_array("termoverallBalaJi2=1", $menuData) ? 'checked' : '' ?>
-                                                                   class="examination"/>
-                                                            <label for="Add" class="permisnCheck">Overall Balaji-2</label>
-                                                        </div>
-                                                        <div class="col-md-3">
-                                                            <input type="checkbox" name="menuName[term2BestFiveBalaJi]"
-                                                                   value="1" <?= in_array("term2BestFiveBalaJi=1", $menuData) ? 'checked' : '' ?>
-                                                                   class="examination"/>
-                                                            <label for="Add" class="permisnCheck">Term-2 Best Five Balaji</label>
-                                                        </div>
-                                                        <div class="col-md-3">
                                                             <input type="checkbox" name="menuName[PT-1-X]"
                                                                    value="1" <?= in_array("PT-1-X=1", $menuData) ? 'checked' : '' ?>
                                                                    class="examination"/>
@@ -3243,6 +3226,12 @@ include $baseROOT . "/SuperAdmin/logic/logicMenuMaster.php";
                                                                    value="1" <?= in_array("reportCard58=1", $menuData) ? 'checked' : '' ?>
                                                                    class="examination"/>
                                                             <label for="Add" class="permisnCheck">Term-2 ( SG 9TH )</label>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <input type="checkbox" name="menuName[reportCard59]"
+                                                                   value="1" <?= in_array("reportCard59=1", $menuData) ? 'checked' : '' ?>
+                                                                   class="examination"/>
+                                                            <label for="Add" class="permisnCheck">Overall ( Bhavya Angel )</label>
                                                         </div>
                                                         <div class="col-md-3">
                                                             <input type="checkbox" name="menuName[overallsvs]"
@@ -3952,6 +3941,13 @@ include $baseROOT . "/SuperAdmin/logic/logicMenuMaster.php";
 
                                                         </div>
                                                         <div class="col-md-3">
+                                                            <input type="checkbox" name="menuName[Term-overall-grade3_green_valley]"
+                                                                   value="1" <?= in_array("Term-overall-grade3_green_valley=1", $menuData) ? 'checked' : '' ?>
+                                                                   class="examination"/>
+                                                            <label for="Add" class="permisnCheck">Term-Overall (With Grade) Green Valley</label>
+
+                                                        </div>
+                                                        <div class="col-md-3">
                                                             <input type="checkbox"
                                                                    name="menuName[Term-overall-withoutheader]"
                                                                    value="1" <?= in_array("Term-overall-withoutheader=1", $menuData) ? 'checked' : '' ?>
@@ -4306,6 +4302,12 @@ include $baseROOT . "/SuperAdmin/logic/logicMenuMaster.php";
                                                                    value="1" <?= in_array("finalBBIS2=1", $menuData) ? 'checked' : '' ?>
                                                                    class="examination"/>
                                                             <label for="finalBBIS2" class="permisnCheck">Final-BBIS(2)</label>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <input type="checkbox" name="menuName[Term2BBIS]" id="Term2BBIS"
+                                                                   value="1" <?= in_array("Term2BBIS=1", $menuData) ? 'checked' : '' ?>
+                                                                   class="examination"/>
+                                                            <label for="Term2BBIS" class="permisnCheck">Term2-BBIS</label>
                                                         </div>
                                                         <div class="col-md-3">
                                                             <input type="checkbox" name="menuName[termOverallDN2]" id="termOverallDN2"
@@ -5489,55 +5491,6 @@ include $baseROOT . "/SuperAdmin/logic/logicMenuMaster.php";
                                                         <div class="form-inline">
                                                             <div class="row">
                                                                 <div class="col-md-3">
-                                                                    <h4>Library  OPAC</h4>
-                                                                </div>
-                                                                <div class="col-md-3">
-                                                                    <input type="checkbox" id="LibOpac"
-                                                                           name="menuName[LibOpac]"
-                                                                           value="1" <?= in_array("LibOpac=1", $menuData) ? 'checked' : '' ?>
-                                                                           onClick="checkUncheck('LibOpac',this.id);"  />
-                                                                    <label for="LibOpac"
-                                                                           class="permisnCheck">ADD</label>
-                                                                </div>
-
-                                                            </div>
-
-                                                        </div>
-
-                                                    </div>
-
-                                                    <div class="panel-body">
-                                                        <div class="col-md-3">
-                                                            <input type="checkbox" id="LibOpacChkBook"
-                                                                   name="menuName[LibOpacChkBook]"
-                                                                   value="1" <?= in_array("LibOpacChkBook=1", $menuData) ? 'checked' : '' ?>  class="LibOpac"/>
-                                                            <label for="LibOpacChkBook" class="permisnCheck">Check Book</label>
-                                                        </div>
-                                                        <div class="col-md-3">
-                                                            <input type="checkbox" id="LibOpacChkMagazine"
-                                                                   name="menuName[LibOpacChkMagazine]"
-                                                                   value="1" <?= in_array("LibOpacChkMagazine=1", $menuData) ? 'checked' : '' ?>  class="LibOpac"/>
-                                                            <label for="LibOpacChkMagazine" class="permisnCheck">Check Magazine</label>
-                                                        </div>
-                                                        <div class="col-md-3">
-                                                            <input type="checkbox" id="LibOpacChkJournal"
-                                                                   name="menuName[LibOpacChkJournal]"
-                                                                   value="1" <?= in_array("LibOpacChkJournal=1", $menuData) ? 'checked' : '' ?>  class="LibOpac"/>
-                                                            <label for="LibOpacChkJournal" class="permisnCheck">Check Journal</label>
-                                                        </div>
-
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <div class="panel">
-                                                    <div class="panel-heading">
-                                                        <div class="form-inline">
-                                                            <div class="row">
-                                                                <div class="col-md-3">
                                                                     <h4>Library Issue/Return</h4>
                                                                 </div>
                                                                 <div class="col-md-3">
@@ -5573,12 +5526,6 @@ include $baseROOT . "/SuperAdmin/logic/logicMenuMaster.php";
                                                                    name="menuName[LibIssueToILL]"
                                                                    value="1" <?= in_array("LibIssueToILL=1", $menuData) ? 'checked' : '' ?>  class="libIssueReturn"/>
                                                             <label for="LibIssueToILL" class="permisnCheck">Issue To ILL</label>
-                                                        </div>
-                                                        <div class="col-md-3">
-                                                            <input type="checkbox" id="LibReservation"
-                                                                   name="menuName[LibReservation]"
-                                                                   value="1" <?= in_array("LibReservation=1", $menuData) ? 'checked' : '' ?>  class="libIssueReturn"/>
-                                                            <label for="LibReservation" class="permisnCheck">Reservation</label>
                                                         </div>
                                                         <div class="col-md-3">
                                                             <input type="checkbox" id="LibBookReturn"
